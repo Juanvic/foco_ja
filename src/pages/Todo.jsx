@@ -1,18 +1,20 @@
+import GerenciadorDeTarefas from '../components/GerenciadorDeTarefas';
 import '../styles/Todo.css'
 
-function Todo() {
+export function Todo() {
   return (
     <>
-    <div className="body">
       <div className="container">
         <div className="row">
           <div className="intro ">
-            <h1>Comece agora</h1>
+            <h1>Comece agora 🎯</h1>
+            <p>Clique no botão <strong>+</strong> para começar</p>
             <div>
               <div className="border1"></div>
             </div>
           </div>
         </div>
+
 
         <div className="row">
           <div className="textoAjuda col-12">
@@ -45,8 +47,9 @@ function Todo() {
           </div>
         </div>
       </div>
-    </div>
+      
     </>
+    
   );
 }
 

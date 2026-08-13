@@ -13,8 +13,7 @@ function Header() {
             <a href="/">Inicio</a>
           </li>
           <li>
-            {/* <a href="/sobre" target="_blank" rel="noopener noreferrer">Sobre</a> */}
-            <Link to="/sobre">Sobre</Link>
+            <Link to="/sobre" rel="noopener noreferrer">Sobre</Link>
           </li>
         </ul>
       </nav>

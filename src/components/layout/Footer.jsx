@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-content">
           <p>
             <a target="_blank" href="https://github.com/Juanvic/">
-              &copy; Juan Almeida 2026 All rights reserved.
+              &copy; Juan Almeida 2026 Todos os Direitos Reservados.
             </a>
           </p>
         </div>

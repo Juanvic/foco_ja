@@ -1,13 +1,9 @@
-.body {
-	background: #04A1BF;
+.container {
+	background: var(--bg);
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
 
-.intro {
-	margin: 30px 0px;
-	font-weight: bold;
-}
 
 h1 {
 	color: #ffffff;
@@ -21,17 +17,12 @@ p {
 
 #first {
 	margin-top: 10px;
-	color: #FFCD5D;
-}
-
-#second {
-	color: #51DF70;
-
+	color: var(--primary);
 }
 
 #third {
-	color: #025F70;
 	margin-bottom: 30px;
+	color: var(--third);
 }
 
 

@@ -4,12 +4,10 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    background: var(--secondary);
 }
 
 .footer-content {
     font-size: 14px;
-    color:  var(--white);
     text-align: center;
 }
 
